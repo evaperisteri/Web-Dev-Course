@@ -1,0 +1,139 @@
+:root {
+    --blue: #0c3576;
+    --lightblue: #1e67b4;
+    --bc-white: #ffffff;
+    --gr-blue: #35abed;
+    --green-button: #196735;
+    --grey-footer: #ecebec;
+}
+
+* {
+    box-sizing: border-box;
+    /* margin: 0;
+    padding: 0; */
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    background-color: var(--blue);
+    padding: 20px;
+    border-bottom:7px solid var(--lightblue);
+}
+
+main {
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: left;
+    padding-left: 350px;
+}
+
+.tar{
+    text-align: right;
+    margin: 20px;
+}
+
+.header-title {
+    color: white;
+    text-align: left;
+    line-height: 30px;
+    font-size: 3rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.fs2 {
+    font-size: 1.2rem;
+}
+
+.fs3{
+    font-size: 3rem;
+}
+
+.logogreek {
+    width: 50px;
+}
+
+.text-white {
+    color: white;
+    font-size: 3rem;
+}
+
+.text-grblue {
+    color: var(--gr-blue);
+    font-size: 3rem;
+}
+
+.button {
+    display: inline-block;
+    line-height: 40px;
+    background-color: var(--green-button);
+    color: white;
+    padding: 10px;
+    border-bottom: 2px solid gray;
+    text-decoration: none;
+    border-radius: 5%;
+}
+
+.greyline {
+    border-top: 1px solid var(--grey-footer);
+    margin-top: 10px;
+}
+
+footer {
+    padding-left: 300px;
+    background-color: var(--grey-footer);
+    margin-top: 10px;
+}
+
+.footer1 {
+    display: flex;
+    font-size: 0.8rem;
+}
+
+.text-footer {
+    display: flex;
+    width: 700px;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+/* .dec-none {
+    text-decoration: none;
+} */
+
+.d-block {
+    display: inline-block
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.c-blue {
+    color: var(--lightblue);
+}
+
+.footer-gray{
+    color: grey;
+    font-size: 0.8rem;
+}
+
+.footer2 {
+    padding-left: 50px;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    justify-content:center;
+    align-items: center;
+}
+
+.logo2 {
+    justify-content: center;
+}

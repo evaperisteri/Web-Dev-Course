@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colors</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        cliford: "#da373d"
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="text-blue-900/10 hover:text-blue-500">
+        Hello Coding!
+    </div>
+    <div class="text-[hsl(210,80%,50%,0.5)]">
+        Athens Uni of Econ and Business
+    </div>
+    <!-- to fa125a einai to xroma kai to 80 to lightness -->
+    <div class="text-[#fa125a80]">
+        Hello color code!
+    </div>
+    <div class="text-[rgb(10,140,120,0.8)]">
+        Hello rgb!
+    </div>
+    <div class="text-cliford/70 hover:text-blue-700">
+        hello custom color!
+    </div>
+</body>
+</html>

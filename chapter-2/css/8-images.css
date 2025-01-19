@@ -1,0 +1,61 @@
+.city{
+    width: 600px;
+    height: auto;
+}
+
+.img-rounded{
+    border-radius: 10px;
+}
+.img-circle{
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+}
+
+.thumbnail{
+    width: 150px;
+    height: auto;
+    /* border: 2px double rgb(209, 31, 31); */
+    border-width: 2px;
+    border-style: double;
+    border-color: rgb(209, 31, 31);
+}
+
+.thumbnail:hover{
+    box-shadow: 0px 0px 2px rgb(1, 26, 34);
+}
+
+.card{
+    width: 400px;
+    border: 1px solid black;
+    /* για να κεντραρει ολοκληρο το div */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.card-image{
+    /* τα ποσοστα οταν ειναι μεσα σε ντιβ αφορουν το πλατος του περιεκτη, ενω αν ειναι χυμα αφορουν ποσοστο του viewport δλδ της σελιδας του browser */
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+.card-text{
+    text-align: center;
+    /* πιανει και εικονες και κειμενο */
+}
+
+.london-bg{
+    height: 800px;
+    border: 2px solid black;
+    background-image: url('../../images/london.jpg');
+    background-repeat: none;
+    /* δεν επαναλαμβανεται */
+    background-size: cover;
+    /* γεμιζει ολη τη σελιδα */
+    background-position: center;
+    /* κεντραρει την εικονα για να μην κοβεται */
+    background-attachment: fixed;
+    /* κλειδωνει το φοντο πισω και μενει ακινητο  */
+}

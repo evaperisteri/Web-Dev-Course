@@ -1,0 +1,72 @@
+body{
+    background-color: lightgray;
+}
+
+h1{
+    color: blue;
+}
+
+p, li{
+    color: red;
+    background-color: yellowgreen;
+}
+
+.aueb-logo{
+    width: 800px;
+    color: blue;
+    background-color: beige;
+}
+
+img{
+    height: auto;
+    border:2px solid yellow;
+}
+
+.aueb-text{
+    color: yellow;
+    /*background-color: brown;*/
+}
+
+#auebText{
+    color: black;
+    background-color: orange;
+}
+
+ul > li{
+    color: orange;
+    background-color: aqua;
+}
+ul strong{
+    color: violet;
+}
+
+ul em {
+    color: black;
+}
+h1 + p{
+    background-color: bisque;
+}
+
+a:link{
+    text-decoration: none;
+color: forestgreen;
+}
+
+a:visited{
+    color: orange;
+}
+
+a:hover{
+background-color: green;
+}
+
+a:focus{
+    outline:none;
+    background-color: black;
+}
+
+a:active{
+background-color: chocolate;
+color: blue;
+}
+/*LoVeHateFeAr*/
